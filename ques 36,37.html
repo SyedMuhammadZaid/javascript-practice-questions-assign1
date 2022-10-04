@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function make_shirt(size,text) {
+            document.write("the size of the shirt is " + size + " and printed text is "+ text);
+        }
+
+        make_shirt("small",'hello world')
+        document.write("<br>")
+
+        function make_shirts( text, size = 'large') {
+            return size + " " + text;
+        }
+
+        document.write(make_shirts('i love js'))
+       
+    </script>  
+</body>
+</html>
